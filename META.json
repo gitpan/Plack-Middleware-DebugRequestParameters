@@ -48,7 +48,7 @@
       },
       "test" : {
          "requires" : {
-            "Capture::Tiny" : "0",
+            "Capture::Tiny" : "0.12",
             "HTTP::Request::Common" : "0",
             "Plack::Test" : "0",
             "Test::Base::Less" : "0",
@@ -60,7 +60,7 @@
    "provides" : {
       "Plack::Middleware::DebugRequestParameters" : {
          "file" : "lib/Plack/Middleware/DebugRequestParameters.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -74,5 +74,5 @@
          "web" : "https://github.com/Cside/Plack-Middleware-DebugRequestParameters"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

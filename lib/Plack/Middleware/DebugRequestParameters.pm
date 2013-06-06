@@ -6,7 +6,7 @@ use parent qw(Plack::Middleware);
 use Text::ASCIITable;
 use Plack::Request;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 sub call {
     my($self, $env) = @_;

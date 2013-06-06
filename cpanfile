@@ -6,7 +6,7 @@ on 'test' => sub {
     requires 'Test::Differences';
     requires 'HTTP::Request::Common';
     requires 'Plack::Test';
-    requires 'Capture::Tiny';
+    requires 'Capture::Tiny', '0.12';
 };
 
 requires 'parent';
