@@ -18,7 +18,6 @@ filters {
     expected => [qw(chomp)],
 };
 
-use 5.10.0;
 test_psgi $app, sub {
     my $cb  = shift;
     for my $block (blocks) {
